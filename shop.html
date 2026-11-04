@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shop · Stacey Porter Antiques</title>
+<meta name="description" content="Browse antique furniture, lighting, art, decor and tabletop pieces.">
+<meta name="theme-color" content="#ccd4c7">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&family=Mulish:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><circle cx='32' cy='32' r='30' fill='%23ccd4c7' stroke='%233e4a3b' stroke-width='3'/><text x='32' y='41' font-family='Georgia' font-size='24' font-weight='700' text-anchor='middle' fill='%233e4a3b'>SP</text></svg>">
+</head>
+<body data-page="shop">
+<div id="header-slot"></div>
+<main id="main">
+
+<section class="page-hero">
+  <div class="wrap">
+    <nav class="crumbs reveal" aria-label="Breadcrumb"><a href="index.html">Home</a><span aria-hidden="true">/</span><span>Shop</span></nav>
+    <h1 class="reveal" style="--d:80ms">Shop the collection</h1>
+    <p class="reveal" style="--d:160ms">Hand picked antique and vintage pieces. Each is one of a kind, so once it's gone, it's gone.</p>
+  </div>
+</section>
+<div class="toolbar">
+  <div class="wrap">
+    <div class="tool-row">
+      <form class="search" id="searchForm" role="search"><i class="fa-solid fa-magnifying-glass"></i><label class="skip" for="q">Search the shop</label><input id="q" type="search" placeholder="Search chairs, Murano, copper, lamps…" autocomplete="off"></form>
+      <label class="sort cat-select"><span>Category</span><select id="catSelect" aria-label="Filter by category"></select></label>
+      <label class="sort"><span>Sort by</span><select id="sort"><option value="featured">Featured</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option><option value="sale">Reduced first</option></select></label>
+    </div>
+    <div class="chips" id="chips" aria-label="Filter by category"></div>
+  </div>
+</div>
+<section class="wrap" style="padding-bottom:96px">
+  <div class="result-bar"><b id="count">Loading…</b><span class="muted small"><i class="fa-solid fa-circle-info"></i> Prices in USD</span></div>
+  <div class="grid" id="shopGrid"></div>
+  <div class="more-cta reveal">
+    <div><h3>Looking for something specific?</h3><p>Over 460 more pieces are listed in our Chairish shop, or just ask and Stacey will help you search.</p></div>
+    <div class="row-btns"><a class="btn" href="https://www.chairish.com/shop/p3g3qz" target="_blank" rel="noopener"><i class="fa-solid fa-store"></i> Visit Chairish shop</a><a class="btn btn-ghost" href="index.html#contact">Ask Stacey</a></div>
+  </div>
+</section>
+
+</main>
+<div id="footer-slot"></div>
+<script src="assets/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
